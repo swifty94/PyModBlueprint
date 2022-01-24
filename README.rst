@@ -6,6 +6,9 @@
 About
 =====
 
+A SAMPLE REPOSITORY TO BE USED AS A SKELETON FOR FUTURE PROJECTS
+AVAILABLE SETUP MECHANISM, UNITTEST, LICENSING, CHANGELOG, LIBRARY-LIKE PACKAGING
+
 ``$name`` -- $createdFor
 
 The code is released under a Simplified BSD License, which is given in
