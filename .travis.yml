@@ -1,0 +1,25 @@
+language: python
+python:
+  - "3.7"
+services:
+    - mysql
+    - someExternalStuff
+env:
+    global:
+     - TRAVIS=true
+before_install:
+    #   something to do before install
+    - sudo service something start
+install:
+    #   actuall install
+  - pip install --upgrade setuptools
+  - pip install -r requirements.txt
+script:
+    #   additional stuff
+  - bash bin/something.sh start  
+notifications:
+  email:
+    recipients:
+      - some@email.com
+    on_success: always 
+    on_failure: always 
