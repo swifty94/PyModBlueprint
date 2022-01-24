@@ -35,14 +35,14 @@ Basics
 
  $usage
 
-Running tests
+Running tests::
 =============
 
-C:\PyModBlueprint>python libname\tests.py
-----------------------------------------------------------------------
-Ran 1 test in 2.012s
-OK
-C:\PyModBlueprint>
+    C:\PyModBlueprint>python libname\tests.py
+    ----------------------------------------------------------------------
+    Ran 1 test in 2.012s
+    OK
+    C:\PyModBlueprint>
 
 Reporting issues
 ================
