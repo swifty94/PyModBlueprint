@@ -22,7 +22,7 @@ Installation
 
 To install, simply do::
 
-    pip install $name
+    python setup.py install
 
 Usage
 =====
@@ -35,13 +35,16 @@ Basics
 Running tests
 =============
 
-To run tests, you will need `pytest <https://docs.pytest.org/en/latest/>`_. You can install it with::
+<pre>
+C:\PyModBlueprint>python libname\tests.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 2.012s
 
-    pip install pytest
-    
-You can then run the tests with::
+OK
 
-    pytest $name
+C:\PyModBlueprint>
+</pre>
 
 Reporting issues
 ================
