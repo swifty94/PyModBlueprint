@@ -35,16 +35,11 @@ Basics
 Running tests
 =============
 
-<pre>
 C:\PyModBlueprint>python libname\tests.py
-.
 ----------------------------------------------------------------------
 Ran 1 test in 2.012s
-
 OK
-
 C:\PyModBlueprint>
-</pre>
 
 Reporting issues
 ================
